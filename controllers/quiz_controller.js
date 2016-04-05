@@ -7,6 +7,7 @@ exports.question = function(req, res){
   })
 };
 
+//A ver si asi me deja
 //GET /quizes/answer
 exports.answer = function(req, res){
   models.Quiz.findAll().success(function(quiz) {
